@@ -39,10 +39,10 @@
 			<div class="row">
 				 <div class="Contact-h col-md-6">
 					<div class="PhoneNamber">
-						<p><i class="fa fa-phone"></i>+1 (888) 520-4567</p>
+						<p><i class="fa fa-phone"></i>+55 (11) 3086-2417</p>
 					</div>
 					<div class="Email-Site">
-						<p><i class="fa fa-envelope"></i>name@domain.com</p>
+						<p><i class="fa fa-envelope"></i>contato@gentrop.com</p>
 					</div>
 				</div>
 
@@ -1383,9 +1383,9 @@
 	// When the user clicks the marker, an info window opens.
 
 	function initialize() {
-	  var myLatlng = new google.maps.LatLng(44.5403, -78.5463);
+	  var myLatlng = new google.maps.LatLng(-23.606758, -46.693553);
 	  var mapOptions = {
-		zoom: 10,
+		zoom: 17,
 		center: myLatlng,
 		  zoomControl: false,
 		  scaleControl: false,
@@ -1396,7 +1396,7 @@
 	  var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
 
 	  var contentString = '<div id="content">'+
-		  '<h3>Fobles Inc.</h3><p>25, 245 Street Name, Address, City</p>'+
+		  '<h3>Gentrop</h3><p>Av. Engenheiro Luís Carlos Berrini, 1140 - Brooklin Novo</p>'+
 		  '</div>';
 
 	  var infowindow = new google.maps.InfoWindow({
@@ -1429,33 +1429,33 @@
 						</div>
 					</div>
 					<div class="Top-Block-Footer">
-						<h2>Contact Info</h2>
+						<h2>Informações de contato</h2>
 					</div>
 					<div class="divcod20"></div>
 					<div class="Contact-Footer">
 						<ul>
-							<li><i class="fa fa-map-marker"></i><p>245 Street name, Address, City</p></li>
-							<li><i class="fa fa-phone"></i><p>+1 (888) 520-4567</p></li>
-							<li><i class="fa fa-envelope"></i><p>support@fobles.com</p></li>
+							<li><i class="fa fa-map-marker"></i><p>Av. Engenheiro Luís Carlos Berrini, 1140 - Brooklin Novo, São Paulo - SP, Brazil</p></li>
+							<li><i class="fa fa-phone"></i><p>+55 (11) 3086-2417</p></li>
+							<li><i class="fa fa-envelope"></i><p>contato@gentrop.com</p></li>
 						</ul>
 					</div>
 				</div>
 				
 				<div class="col-md-6">
 					<div class="Contact-Form">
-						<form class="leave-comment contact-form" method="post" action="style/php/contact.php" id="cform" autocomplete="on">
+						<form class="leave-comment contact-form" method="post" action="http://formspree.io/contato@gentrop.com" id="cform" autocomplete="on">
 							<div class="Contact-us">
 								<div class="form-input">
-									<input type="text" placeholder="Your Name" required>
+									<input type="text" name="nome" placeholder="Seu Nome" required>
 								</div>
 								<div class="form-input">
-									<input type="email" placeholder="Email" required>
+									<input type="email" name="email" placeholder="e-mail" required>
 								</div>
 								<div class="form-textarea">
-									<textarea class="txt-box textArea" name="message" cols="40" rows="7" id="messageTxt" placeholder="Message" spellcheck="true" required></textarea>
+									<textarea class="txt-box textArea" name="mensagem" cols="40" rows="7" id="messageTxt" placeholder="Mensagem" spellcheck="true" required></textarea>
 								</div>
 								<div class="form-submit">
-									<input type="submit" class="btn btn-bck main-bg" value="Send massage">
+									<input type="submit" class="btn btn-bck main-bg" value="Enviar">
 								</div>
 							</div>
 						</form>
@@ -1478,6 +1478,7 @@
                 	<h2>All Rights Reserved © 2015. <a href="#"><span>Privacy</span></a> / <a href="#"><span>TOS</span></a> / <a href="#"><span>FAQ</span></a></h2>
                 </div>
             </div>
+<!--
 			<div class="col-md-6 text-right">
             	<div class="Link-Footer">
                 	<ul>
@@ -1489,6 +1490,7 @@
                     </ul>
                 </div>
             </div>
+-->
 		</div>
     </div>    
 </section>
