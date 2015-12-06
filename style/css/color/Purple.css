@@ -1,0 +1,927 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+color: #E040FB;
+text-decoration: none;
+}
+
+a:hover,
+a:focus {
+text-decoration: none;
+o-transition: all 0.3s ease-out;
+-ms-transition: all 0.3s ease-out;
+-moz-transition: all 0.3s ease-out;
+-webkit-transition: all 0.3s ease-out;
+transition: all 0.3s ease-out;
+color: #D03A2F;
+}
+
+a.scroll.active, a.scroll.active i {
+    color: #E040FB !important;
+    border-top: 0px Solid #E040FB;
+    background: none;
+}
+
+.Menu-Header a.scroll.active:before {
+    border-top: 2px solid #E040FB;
+    width: 100%;
+}
+
+.tp-caption.Feature-Buy {
+    background-color: #E040FB !important;
+	border: 1px solid #E040FB !important;;
+}
+
+.tp-caption.Feature-Buy:hover {
+	color: #333;
+    background-color: #FFF !important;
+}
+
+
+.check-box a:hover {
+  color: #D03A2F;
+}
+
+.Sign-Up p a:hover {
+  color: #D03A2F;
+}
+
+.navbar-logo {
+background: url(logo/logo-purple.png) no-repeat left;
+}
+
+.Title-thumbs-portfolio h3:hover {
+  color: #E040FB;
+}
+
+.Title-thumbs-portfolio p:hover {
+  color: #E040FB;
+}
+
+.activelink {
+border: 2px Solid #E040FB !important;
+padding: 10px 30px;
+font-size: 17px;
+color: #FFF;
+border-radius: 3px;
+background: #E040FB !important;
+text-align: center;
+font-family: 'Lato', sans-serif;
+}
+
+.Menu-Header ul li a:hover {
+color: #E040FB !important;
+border-top: 0px Solid #E040FB;
+background: none;
+}
+
+li.open .js-activated {
+  color: #E040FB !important;
+}
+
+a.current i {
+  color: #E040FB !important;
+}
+
+.Menu-Header ul li:hover i {
+  color: #E040FB;
+}
+
+.yamm-fullwidth ul.dropdown-menu div h5 {
+  color: #E040FB;
+}
+
+.Link-ul li a:hover {
+  background-color: #E040FB;
+}
+
+.Menu-Header ul li a:before {
+border-top: 2px solid #E040FB;
+}
+
+.Menu-Header ul li a.current:before {
+width: 100%;
+content: "";
+color: #E040FB !important;
+}
+
+.Menu-Header ul li a:hover i {
+  color: #E040FB !important;
+}
+
+.current{
+color: #E040FB !important;
+}
+
+.navbar .dropdown-menu {
+border-top: 2px solid #E040FB !important;
+}
+
+ul.dropdown-menu .col-md-4 h5 {
+color: #E040FB;
+}
+
+.Top-Block {
+background: #E040FB;
+border-right: 1px Solid #E040FB;
+}
+
+.Top-Block i {
+background: #E040FB;
+border: 5px Solid #E040FB;
+}
+
+.About-Block:hover .Top-Block i {
+background: #303030;
+border: 5px Solid #E040FB;
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+-moz-transition: -moz-transform 0.2s;
+-o-transition: transform 0.2s;
+-webkit-transition: -webkit-transform 0.2s;
+transition: transform 0.2s;
+}
+
+.Bottom-Block a:hover {
+color: #FFF;
+background: #E040FB;
+border: 1px SOlid #E040FB;
+}
+
+.hvr-radial-out:before {
+background: #E040FB;
+}
+
+.title-section h3 {
+color: #E040FB;
+}
+
+h4.tap-title.active i {
+background: #E040FB;
+}
+
+h4.tap-title.active a {
+color: #E040FB;
+}
+
+.Contact-Team p span {
+color: #E040FB;
+}
+
+.Top-Testimonials i {
+border: 2px Solid #E040FB;
+}
+
+.Bottom-Testimonials h3 {
+color: #E040FB;
+}
+
+#owl-Testimonials .owl-page.active span {
+background: #E040FB !important;
+}
+
+#owl-about-img .owl-page.active span {
+  background: #E040FB !important;
+}
+
+.block-Services:hover i {
+color: #E040FB;
+}
+
+.welcome-Block:hover .Top-welcome i {
+  background-color: #E040FB;
+}
+
+.Bottom-welcome a {
+  color: #E040FB;
+}
+
+.Bottom-welcome a:after {
+  color: #E040FB;
+}
+
+.bars-style6 .progress-bar {
+  background-color: #E040FB;
+}
+
+.Team-Block:hover .Top-Img-Team img {
+  border: 2px Solid #E040FB;
+}
+
+.Contact-TeamBlock ul:after {
+  border-bottom: 2px Solid #E040FB;
+}
+
+.Block-ClassServices:hover .Top-ClassServices {
+  border-bottom: 3px Solid #E040FB;
+}
+
+.Block-ClassServices:hover .Bottom-ClassServices a {
+  background-color: #E040FB;
+}
+
+.block-Services:hover h3 {
+color: #E040FB;
+}
+
+.block-Services:hover .line-break {
+border-bottom: 2px Solid #E040FB;
+}
+
+.SliderHomeVideoBck {
+  background: rgba(224, 64, 251, 0.9);
+}
+
+.projectItem-hover {
+background: rgba(224, 64, 251, 0.9);
+}
+
+.owl-theme .owl-controls .owl-page.active span {
+border: 3px SOlid #E040FB;
+}
+
+.btn-bck {
+background: #E040FB;
+border: 2px Solid #E040FB;
+}
+
+.btn-bck:hover {
+border: 2px Solid #E040FB;
+color: #E040FB;
+}
+
+a.btn-notback {
+border: 2px Solid #E040FB;
+color: #E040FB;
+}
+
+a.btn-notback:hover {
+background: #E040FB;
+border: 2px Solid #E040FB;
+}
+
+.color-wrapper {
+background-color: #E040FB;
+border: none;
+}
+
+.Features-Block h3 {
+color: #E040FB;
+}
+
+.Title-Us h3 {
+color: #E040FB;
+}
+
+.col-md-4:hover .Block-Sec h5 {
+color: #E040FB;
+}
+
+.col-md-4:hover .Block-Sec a {
+color: #E040FB !important;
+}
+
+.col-md-4:hover .Block-Sec a:after {
+color: #E040FB;
+}
+
+#owl-Services-Slider .owl-page.active span {
+background: #E040FB !important;
+}
+
+.block-News:hover .Top-img-news i {
+background: #E040FB;
+}
+
+.data-news p span {
+color: #E040FB;
+}
+
+.title-news h2:hover {
+color: #E040FB;
+}
+
+.Get-news a:hover, .Get-news a:hover::after {
+  color: #E040FB;
+}
+
+.data-news p a:hover {
+  color: #E040FB;
+}
+
+.Post-f-title p span {
+color: #E040FB;
+}
+
+.TextImg-Block h3 {
+  color: #E040FB;
+}
+
+.TextImg-Block a:hover {
+  background-color: #E040FB;
+  border: 2px Solid #E040FB;
+}
+
+.Block-Blue‬‏-Community {
+  background-color: #E040FB;
+}
+
+.Join-Footer .btnjoin {
+background: #E040FB;
+}
+
+.Top-Block-Sidebar h2 {
+color: #E040FB;
+}
+
+.main-bg input {
+background: #E040FB;
+color: #FFF;
+}
+
+.check-box a {
+color: #E040FB;
+}
+
+.Sign-Up p a {
+color: #E040FB;
+}
+
+.Bot-Block-Sidebar h2 {
+color: #E040FB;
+}
+
+.Join-Sidebar .btnjoin {
+background: #E040FB;
+}
+
+a.Slicefive:hover {
+background: #E040FB;
+border: 2px Solid #E040FB;
+}
+
+.active a {
+color: #E040FB !important;
+}
+
+.bars-style1 .progress-bar {
+background-color: #E040FB;
+}
+
+.Choice-Block a {
+  background-color: #E040FB;
+}
+
+#footer-2 .Post-f-title a h2:hover {
+  color: #E040FB;
+}
+
+ul.Process-tabs-navigation li .selected {
+  background-color: #E040FB;
+}
+
+.Hover-Team {
+background: rgba(224, 64, 251, 0.9);
+}
+
+.active-link a {
+background: #E040FB !important;
+}
+
+.Load-More a:hover {
+border: 2px Solid #E040FB;
+color: #FFF;
+background: #E040FB;
+}
+
+.block-Features i {
+background: #E040FB;
+}
+
+.counters-style1 .one_fourth i {
+  background: #E040FB;
+}
+
+.counters-style5 .one_fourth i {
+  background: #E040FB;
+}
+
+.counters-style1 .one_fourth span {
+color: #E040FB;
+}
+
+.counters-style5 .one_fourth span {
+  color: #E040FB;
+}
+
+.Lastpost-Blog a h4:hover {
+  color: #E040FB;
+}
+
+li.selected a img {
+  border: 2px Solid #E040FB !important;
+}
+
+.Testimonials-Info img {
+  border: 1px Solid #E040FB;
+}
+
+.All-Post {
+  font-size: 13px;
+  color: #E040FB;
+}
+
+.All-Post:after {
+  color: #E040FB;
+}
+
+#owl-Testimonials-Txt.owl-theme .owl-controls .owl-buttons div:hover, #owl-Testimonials-Txt.owl-theme .owl-controls .owl-buttons div:hover i {
+  background: #E040FB;
+}
+
+.wrapper-twitter {
+background: rgba(224, 64, 251, 0.9);
+}
+
+.Join-Newsletter .btnjoin {
+background: #E040FB;
+}
+
+.Join-Newsletter {
+border: 1px Solid #E040FB;
+}
+
+.tags a:hover {
+background: #E040FB;
+}
+
+.About-Block:hover .Style-Tow {
+margin-top: -20px;
+height: 150px !important;
+background: -webkit-linear-gradient(180deg, #E040FB 10%, #CB3A2F 90%);
+background: -moz-linear-gradient(180deg, #E040FB 10%, #CB3A2F 90%);
+background: -ms-linear-gradient(180deg, #E040FB 10%, #CB3A2F 90%);
+background: -o-linear-gradient(180deg, #E040FB 10%, #CB3A2F 90%);
+background: linear-gradient(180deg, #E040FB 10%, #CB3A2F 90%);
+}
+
+.About-Block:hover .Top-Block.Style-Tow i {
+border: 0px Solid #E040FB;
+}
+
+.About-Block:hover .Style-Tow i {
+background: none;
+border: none;
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
+-moz-transition: -moz-transform 0.2s;
+-o-transition: transform 0.2s;
+-webkit-transition: -webkit-transform 0.2s;
+transition: transform 0.2s;
+}
+
+.dropdown-submenu>.dropdown-menu:not(.yamm-dropdown-menu) {
+border-top: 2px solid #E040FB !important;
+}
+
+.Catogry-Pages p a {
+color: #E040FB;
+}
+
+.Top-Title-Page h3 {
+color: #E040FB;
+}
+
+.block-Services:hover .Box-Bg i {
+color: #E040FB;
+}
+
+.About-Me-Right i {
+background: #E040FB;
+}
+
+.Download-CV a {
+background: #E040FB;
+}
+
+.Pricing .plan:hover .Top-Plan {
+background: #E040FB;
+}
+
+.Pricing .plan:hover .select a {
+background: #E040FB;
+border: 2px Solid #E040FB;
+}
+
+.description-section a {
+color: #E040FB;
+}
+
+.description-section i {
+color: #E040FB;
+}
+
+.Pricing .plan:hover .Top-Plan-2 h4 {
+background: #E040FB;
+}
+
+.siteMap-nav ul ul li a {
+color: #E040FB;
+}
+
+.time_circles > div > span {
+color: #E040FB;
+}
+
+.pager li>a:focus, .pager li>a:hover {
+  color: #E040FB;
+}
+
+.Top-Title-Blog h2 {
+color: #E040FB;
+}
+
+.Bottom-Title-Blog ul li p span {
+color: #E040FB;
+}
+
+.Comments-Post ul li h4 {
+color: #E040FB;
+}
+
+.Comments-Post ul li span a {
+color: #E040FB !important;
+}
+
+.btn-large:hover {
+background: #E040FB;
+}
+
+.Headline-Text h1, .Headline-Text h2, .Headline-Text h3, .Headline-Text h4, .Headline-Text h5, .Headline-Text h6 {
+font-weight: 700;
+color: #E040FB;
+}
+
+blockquote p {
+color: #E040FB;
+}
+
+blockquote.blockquote-3 {
+background: #E040FB;
+}
+
+ul.list.prim li:before {
+color: #E040FB !important;
+}
+
+.Bullets ul li span {
+color: #E040FB;
+}
+
+.Block-Contact i {
+color: #E040FB;
+}
+
+.Block-Contact span {
+color: #E040FB;
+}
+
+.Block-Business i {
+background: #E040FB;
+}
+
+.portfolio-link i, .portfolio-zoom i, .portfolio-like i {
+color: #E040FB;
+}
+
+.Bottom-Twitter h2 a:hover {
+  color: #E040FB !important;
+}
+
+#footer-3 .Post-f-title a h2:hover {
+  color: #E040FB;
+}
+
+#to-top {
+background-color: #E040FB;
+}
+
+.selected .Icons-Search a {
+  color: #E040FB;
+}
+
+.color-overlay {
+  background: rgba(224, 64, 251, 0.9);
+}
+
+.Page-title-Style3 .Title-Pages h2 {
+  color: #E040FB;
+}
+
+.Page-title-Style8 .Title-Pages h2 {
+  color: #E040FB;
+}
+
+.Team-block:hover .Top-Img {
+  border: 2px Solid #E040FB;
+}
+
+.Team-block:after {
+  background-color: #E040FB;
+}
+
+h4.tap-title.active a i {
+  background: #E040FB;
+}
+
+.accordions-style2 h4.tap-title.active span {
+  color: #E040FB;
+}
+
+.bars-style4 .progress-bar {
+  background-color: #E040FB;
+}
+
+.Contact-TeamBlock ul li a:hover {
+  color: #E040FB;
+}
+
+input.btn-large:hover {
+  width: 100%;
+  background: #E040FB;
+}
+
+.siteMap-nav > ul > li > .active {
+  background: #E040FB;
+}
+
+.Categories-Block ul li:hover p {
+  color: #E040FB;
+}
+
+.Title-masonry-portfolio a h3:hover {
+  color: #E040FB;
+}
+
+.Title-masonry-portfolio a p:hover {
+  color: #E040FB;
+}
+
+.projectItem-hover.thumbs-portfolio {
+  background: rgba(224, 64, 251, 0.9);
+}
+
+.img-shop-content span {
+  background-color: #E040FB;
+}
+
+.title-shop-content h4 {
+  color: #E040FB;
+}
+
+.hover-shop-content ul li a:hover {
+  color: #E040FB;
+}
+
+.sort-by-click a:hover {
+  color: #E040FB;
+}
+
+.title-shop-content h2:hover {
+  color: #E040FB;
+}
+
+.title-shop-content p:hover {
+  color: #E040FB;
+}
+
+.sort-by-click a.active {
+  color: #E040FB;
+}
+
+.Color-Block ul li:hover p {
+  color: #E040FB;
+}
+
+.Price-Block ul li a:hover {
+  color: #E040FB;
+}
+
+.TopItems-content a h4:hover {
+  color: #E040FB;
+}
+
+.TopItems-content span {
+  color: #E040FB;
+}
+
+.sale-shop-content h4 {
+  color: #E040FB;
+}
+
+.right-shop-content h3 {
+  color: #E040FB;
+}
+
+.add-items a:hover i {
+  color: #E040FB;
+}
+
+.Add-to-Cart a:hover {
+  color: #E040FB !important;
+}
+
+.reviews-txt a:hover {
+  color: #E040FB !important;
+}
+
+.title-leave-rating h4 {
+  color: #E040FB;
+}
+
+.table-layout {
+  background-color: #E040FB;
+}
+
+.update-cart a:hover {
+  border: 1px Solid #E040FB;
+  color: #E040FB;
+}
+
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+  background: #E040FB;
+  color: #FFF;
+}
+
+input#coupon-code {
+  background-color: #E040FB;
+}
+
+.button {
+  background-color: #E040FB;
+}
+
+.total p {
+  color: #E040FB;
+}
+
+.btn-mod.btn-large:hover {
+  background: #E040FB;
+}
+
+.title-billing h2 {
+  color: #E040FB;
+}
+
+.title-billing h3 {
+  color: #E040FB;
+}
+
+.form-billing h4 {
+  color: #E040FB;
+}
+
+.accordions-style6 .section-content a i {
+  color: #E040FB;
+}
+
+.accordions-style3 h4.tap-title.active span {
+  color: #E040FB;
+}
+
+.Text-About h2 {
+  color: #E040FB;
+}
+
+input.btn-large:hover {
+  width: 100%;
+  background: #E040FB;
+}
+
+.btn-large:hover {
+background: #E040FB;
+}
+
+.btn-mod.btn-large:hover {
+background: #E040FB;
+color: #FFF;
+}
+
+.btn-mod.btn-medium:hover {
+background: #E040FB;
+color: #FFF;
+}
+
+
+.btn-mod.btn-small:hover {
+background: #E040FB;
+color: #FFF;
+}
+
+.btn-mod:hover, .btn-mod:focus, a.btn-mod:hover, a.btn-mod:focus {
+background: #E040FB;
+color: #FFF;
+}
+
+.btn-mod.btn-border:hover, .btn-mod.btn-border:focus {
+  color: #fff;
+  border-color: transparent;
+  background: #E040FB;
+}
+
+
+.hvr-sweep-to-right:before {
+  content: "";
+  background: #E040FB;
+}
+
+.hvr-radial-out:before{
+  content: "";
+  background: #E040FB;
+  border-radius: 30px;
+}
+
+.hvr-sweep-to-left:before{
+  content: "";
+  background: #E040FB;
+  border-radius: 30px;
+}
+
+.btn-mod.btn-border {
+  color: #E040FB;
+  border: 2px solid #E040FB;
+  background: transparent;
+}
+
+.counters-style2 .one_fourth i {
+  background: #E040FB;
+}
+
+.counters-style2 .one_fourth span {
+  color: #E040FB;
+}
+
+.wrapper-color {
+  background: rgba(224, 64, 251, 0.9);
+}
+
+.Promo-style3 {
+  background-color: #E040FB;
+}
+
+.Promo-style4 {
+  background-color: #E040FB;
+}
+
+.Promo-style4 .Purchase-Click a:hover {
+  background: #E040FB;
+  border: 2px Solid #FFF;
+  color: #FFF;
+}
+
+.Promo-style4 .Purchase-Click a {
+  border: 2px Solid #E040FB;
+}
+
+.Promo-style3 .Purchase-Click a:hover {
+  background: #E040FB;
+}
+
+.Promo-style7 {
+  background-color: #E040FB;
+}
+
+.social-style1 li a:hover {
+  color: #FFF;
+  border: 1px Solid #E040FB;
+  background: #E040FB;
+}
+
+.social-style2 li a {
+  border: 1px Solid #E040FB;
+  background: #E040FB;
+}
+
+.social-style3 li a:hover {
+  color: #FFF;
+  border: 1px Solid #E040FB;
+  background: #E040FB;
+}
+
+.Tabs-Style4 ul.tab-nav:not(.tab-nav-lg) li.active {
+  border-top: 2px Solid #E040FB;
+}
+
+.Tabs-Style5 ul.tab-nav:not(.tab-nav-lg) li.active {
+  border-bottom: 2px Solid #E040FB;
+}
+
+.Tabs-Style6 ul.tab-nav:not(.tab-nav-lg) li.active a {
+  background-color: #E040FB !important;
+}
+
+.Tabs-Style10.side-tabs ul.tab-nav li.active a {
+  background-color: #E040FB !important;
+  color: #FFF !important;
+}
