@@ -199,8 +199,8 @@ display: none;
 
 
 .navbar-logo {
-    width: 100% !important;
-    line-height: 50px;
+    width: 120px !important;
+    line-height: 20px;
     background-image: url(../images/logo/Logo-Header.png) !important;
     height: 90px !important;
     display: inline-block;
@@ -744,7 +744,7 @@ display: none;
   line-height: 20px;
   background: url(../images/logo/Logo-Header.png) no-repeat center !important;
   width: 100% !important;
-  height: 90px;
+  height: 65px !important;
   margin-left: 0 !important;
   display: inline-block;
 }
@@ -1400,7 +1400,7 @@ display: none;
   line-height: 20px;
   background: url(../images/logo/Logo-Header.png) no-repeat center !important;
   width: 100% !important;
-  height: 90px;
+  height: 65px !important;
   margin-left: 0 !important;
   display: inline-block;
 }
@@ -1961,7 +1961,7 @@ display: none;
   line-height: 20px;
   background: url(../images/logo/Logo-Header.png) no-repeat center !important;
   width: 100% !important;
-  height: 90px;
+  height: 65px !important;
   margin-left: 0 !important;
   display: inline-block;
 }
